@@ -4,6 +4,10 @@ A small Java project created for the Distributed Systems course at UFABC. It dem
 
 This is a learning exercise, not a production-ready reliable-UDP implementation.
 
+## Academic context
+
+This project was developed for the **Distributed Systems** course at the Federal University of ABC (UFABC). Its purpose is to make UDP communication behavior and basic application-level recovery mechanisms observable in a compact example.
+
 ## What it demonstrates
 
 The bundled client starts two independent sender threads. Each sends a sequence of ten payloads (`M0` through `M9`) to a UDP server on `127.0.0.1:9876`.
